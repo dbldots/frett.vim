@@ -24,15 +24,8 @@ filter results by a filepath:
 pass additional options to frett:
 
     :Frett "search_string" {path} [options]
-    :Frett "def foo" app/models -w
-    " this will call
-    frett -w "def foo" app/models
+    :Frett -w "def foo" app/models
 
-pass additional options to frett without filtering by path:
-
-    " syntax is still the same
-    :Frett "{search_string}" {path} [options]
-    :Frett "def foo" / -w
 
 call `frett -h` to see all available options.
 
